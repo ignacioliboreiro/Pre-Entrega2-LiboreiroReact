@@ -12,14 +12,13 @@ import CartContainer from './component/CartContainer/CartContainer'
 
 
 
-
-
+//link podemos navegar a una url 
 
 function App() {
   return (
     <BrowserRouter>
 
-    <NavScrollExample />  
+    <NavScrollExample/>  
     <Routes>
     <Route path='/' element={<ItemListContainer/>}/>
     <Route path='/Comprar' element={<ItemDetailContainer/>}/>

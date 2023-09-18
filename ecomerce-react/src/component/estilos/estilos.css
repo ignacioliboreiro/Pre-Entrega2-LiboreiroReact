@@ -75,3 +75,7 @@ button:active {
     -moz-transition: box-shadow 0.2s ease-in;
     transition: box-shadow 0.2s ease-in;
 }
+
+.navbar{
+    margin-left:5px ;
+}
