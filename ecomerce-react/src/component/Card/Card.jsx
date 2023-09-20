@@ -12,7 +12,7 @@ const Card = ({product}) => {
                 </div>
 
                 <div className="card-compra">
-                    <Link to={"comprar/${product.id}"}>
+                    <Link to={"/item/:id"}>
                     <button>
                         Comprar
                     </button>

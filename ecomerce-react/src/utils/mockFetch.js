@@ -40,22 +40,6 @@ const products = ([
         description: 'NOTEBOOK GIGABYTE AERO 16',
         imagenUrl:"https://front.dev.malditohard.com.ar/img/migration/NOTEBOOK-GIGABYTE-AERO-16-OLED-i7-3060P-16GB-1T.webp"
     },
-    {
-        id: 6,
-        name: 'DISCO SSD 1TB',
-        stock: 4,
-        price: 8.999,
-        description: 'DISCO SSD 1TB GIGABYTE SATA III',
-        imagenUrl:"https://front.dev.malditohard.com.ar/img/migration/DISCO-SSD-1TB-GIGABYTE-SATA-III.webp"
-    },
-    {
-        id: 7,
-        name: 'MOTHER GIGABYTE',
-        stock: 4,
-        price: 14.999,
-        description: 'MOTHER GIGABYTE Z390 AORUS PRO  ',
-        imagenUrl:"https://front.dev.malditohard.com.ar/img/migration/MOTHER-GIGABYTE-Z390-AORUS-PRO-WIFI-BOX-ATX-1151.webp"
-    },
 ]);
 
 const mFetch = () =>

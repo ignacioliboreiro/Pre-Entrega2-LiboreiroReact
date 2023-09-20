@@ -9,7 +9,7 @@ const ItemDetail = ({products}) => {
     return (
         <div className='row'>
                 <div className='col'>
-                <img src={products. imagenUrl} alt="" />
+                <img src={products.imagenUrl} alt="" />
                 <ItemCounter inital={1} stock={3} onAdd={onAdd}/>
                 </div>
 

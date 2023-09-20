@@ -17,16 +17,13 @@ import CartContainer from './component/CartContainer/CartContainer'
 function App() {
   return (
     <BrowserRouter>
-
-    <NavScrollExample/>  
-    <Routes>
-    <Route path='/' element={<ItemListContainer/>}/>
-    <Route path='/Comprar' element={<ItemDetailContainer/>}/>
-    <Route path='/cart' element={<CartContainer/>}/>
-    
-    </Routes>
-    
-
+      <NavScrollExample />
+      <Routes>
+        <Route path=' / ' element={<ItemListContainer />} />
+        <Route path='/category/:id' element={<ItemListContainer />} />
+        <Route path='/item/:id' element={<ItemDetailContainer />} />
+        <Route path='/cart' element={<CartContainer />} />
+      </Routes>
     </BrowserRouter>
 
 
